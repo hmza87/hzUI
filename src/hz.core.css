@@ -1,0 +1,20 @@
+
+
+.hz-transition-1x {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.hz-flashing {
+    border : 1px solid #ccc;
+    -webkit-box-shadow: 0 0 17px #effd45;
+    -moz-box-shadow: 0 0 17px #effd45;
+    box-shadow: 0 0 17px #effd45;
+}
+
+
+
+
