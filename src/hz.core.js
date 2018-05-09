@@ -73,8 +73,12 @@ var hz = {
                     var str = inner.substr(i);
                     str = str.substr(0, (end - i) + 1);
                     parsed = hz._parseClass(str);
+                    if(parsed){
+                        parsed.pos = {start : start, end : end}
+                    }
 
                 }
+
 
                 return parsed;
 
